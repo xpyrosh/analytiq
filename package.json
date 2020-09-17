@@ -1,0 +1,22 @@
+{
+  "name": "analytiq",
+  "version": "1.0.0",
+  "description": "> Analytic IQ",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xpyrosh/analytiq.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xpyrosh/analytiq/issues"
+  },
+  "homepage": "https://github.com/xpyrosh/analytiq#readme",
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
