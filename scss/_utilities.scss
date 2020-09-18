@@ -1,8 +1,8 @@
 .container {
     max-width: $website-width;
+    position: relative;
     padding: 0 1.5rem;
     margin: auto;
-    // not sure about overflow yet since they want that marble effect
     // overflow: hidden; 
 }
 
