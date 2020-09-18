@@ -12,7 +12,7 @@
 body {
     font-family: 'Open Sans', sans-serif;
     line-height: 1.6;
-    background: #333;
+    background: $bg-color;
 }
 
 a {
@@ -24,3 +24,28 @@ ul {
     list-style: none;
 }
 
+// Nav Bar 
+#main-nav {
+    padding-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+
+    #logo {
+        width: auto;
+        height: auto;
+        max-height: 50px;
+    }
+
+    ul {
+        display: flex;
+        font-size: 1.25rem;
+        li {
+            padding-left: 3rem;
+        }
+    }
+}
+
+.current {
+    color: $primary-color;
+    font-weight: bold;
+}

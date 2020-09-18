@@ -10,7 +10,7 @@
 body {
   font-family: 'Open Sans', sans-serif;
   line-height: 1.6;
-  background: #333; }
+  background: #f6f6f6; }
 
 a {
   text-decoration: none;
@@ -18,3 +18,21 @@ a {
 
 ul {
   list-style: none; }
+
+#main-nav {
+  padding-top: 3rem;
+  display: flex;
+  justify-content: space-between; }
+  #main-nav #logo {
+    width: auto;
+    height: auto;
+    max-height: 50px; }
+  #main-nav ul {
+    display: flex;
+    font-size: 1.25rem; }
+    #main-nav ul li {
+      padding-left: 3rem; }
+
+.current {
+  color: #bd9235;
+  font-weight: bold; }
