@@ -85,7 +85,12 @@ ul {
             .header-btn {
                 display: block;
                 margin-top: 17%;
-                align-items: center;
+                .btn-main {
+                    transition: all .5s;
+                    &:hover {
+                        padding: 1.25rem 5rem;
+                    }
+                }
             }
 
             .fas {

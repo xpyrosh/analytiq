@@ -8,6 +8,7 @@
 
 // Buttons
 .btn-main{
+    
     color: white;
     font-size: 1.5rem;
     padding: 1.25rem 2rem;
@@ -16,10 +17,10 @@
     border-radius: 50px;
     width: 100%;
     height: auto;
-    transition: all 3s;
+    transition: all 2s;
+}
 
-    &:hover {
-        transform: scale(2);
-        background-image: linear-gradient(to right, #63364e, #080341);
-    }
+.btn-main:hover {
+    background-image: linear-gradient(to right, #63364e, #080341);
+    padding: 1.25 4rem;
 }
