@@ -43,9 +43,55 @@ ul {
             padding-left: 3rem;
         }
     }
+
+    a {
+        border-bottom: 3px transparent solid;
+        padding-bottom: .5rem;
+        transition: border-color .5s;
+        // border-radius: 1px;
+
+        &:hover {
+            border-color: $navbar-text;
+        }
+
+        &.current {
+            border-color: $primary-color;
+        }
+    }
 }
 
 .current {
     color: $primary-color;
     font-weight: bold;
+}
+
+#header{
+    &-home{
+        height: 100vh;
+
+        #header-content {
+            padding-top: 17%;
+            align-items: center;
+            text-align: center;
+            
+            .header-title {
+                display: block;
+                width: 92%;
+                height: auto;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .header-btn {
+                display: block;
+                margin-top: 17%;
+                align-items: center;
+            }
+
+            .fas {
+                margin-top: 17%;
+                color: #040040;
+            }
+        }
+    }
 }

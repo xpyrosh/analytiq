@@ -5,3 +5,21 @@
     // not sure about overflow yet since they want that marble effect
     // overflow: hidden; 
 }
+
+// Buttons
+.btn-main{
+    color: white;
+    font-size: 1.5rem;
+    padding: 1.25rem 2rem;
+    // background: purple;
+    background-image: linear-gradient(to right, #080341, #63364e);
+    border-radius: 50px;
+    width: 100%;
+    height: auto;
+    transition: all 3s;
+
+    &:hover {
+        transform: scale(2);
+        background-image: linear-gradient(to right, #63364e, #080341);
+    }
+}
