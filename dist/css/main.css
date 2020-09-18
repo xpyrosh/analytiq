@@ -9,13 +9,13 @@
   padding: 1.25rem 2rem;
   background-image: linear-gradient(to right, #080341, #63364e);
   border-radius: 50px;
+  cursor: pointer;
   width: 100%;
   height: auto;
-  transition: all 2s; }
-
-.btn-main:hover {
-  background-image: linear-gradient(to right, #63364e, #080341);
-  padding: 1.25 4rem; }
+  transition: all .3s; }
+  .btn-main:hover {
+    background-image: linear-gradient(to right, #63364e, #080341);
+    padding: 1.25rem 5rem; }
 
 * {
   margin: 0;
@@ -74,10 +74,6 @@ ul {
     #header-home #header-content .header-btn {
       display: block;
       margin-top: 17%; }
-      #header-home #header-content .header-btn .btn-main {
-        transition: all .5s; }
-        #header-home #header-content .header-btn .btn-main:hover {
-          padding: 1.25rem 5rem; }
-    #header-home #header-content .fas {
+    #header-home #header-content i {
       margin-top: 17%;
       color: #040040; }
