@@ -7,19 +7,47 @@
 }
 
 // Buttons
-.btn-main{
+// shared property
+%btn-shared{
     color: white;
     font-size: 1.5rem;
     padding: 1.25rem 2rem;
-    background-image: linear-gradient(to right, #080341, #63364e);
     border-radius: 50px;
     cursor: pointer;
     width: 100%;
     height: auto;
     transition: all .3s;
 
+    
+}
+
+// Custom Buttons
+.btn {
+    // Main Button with gradient
+    &-main {
+        @extend %btn-shared;
+        background-image: linear-gradient(to right, #080341, #63364e);
+        &:hover {
+            background-image: linear-gradient(to right, #63364e, #080341);
+            padding: 1.25rem 5rem;
+        }
+    }
+
+    // Secondary Button
+    &-secondary {
+        @extend %btn-shared;
+        background: #040040;
+        padding: 1rem 1.5rem;
+        &:hover {
+            background: #713d50;
+            padding: 1rem 4rem;
+        }
+    }
+}
+
+// Brightness
+.bright {
     &:hover {
-        background-image: linear-gradient(to right, #63364e, #080341);
-        padding: 1.25rem 5rem;
+        filter: brightness(200%);
     }
 }

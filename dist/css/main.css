@@ -4,19 +4,31 @@
   padding: 0 1.5rem;
   margin: auto; }
 
-.btn-main {
+.btn-main, .btn-secondary {
   color: white;
   font-size: 1.5rem;
   padding: 1.25rem 2rem;
-  background-image: linear-gradient(to right, #080341, #63364e);
   border-radius: 50px;
   cursor: pointer;
   width: 100%;
   height: auto;
   transition: all .3s; }
+
+.btn-main {
+  background-image: linear-gradient(to right, #080341, #63364e); }
   .btn-main:hover {
     background-image: linear-gradient(to right, #63364e, #080341);
     padding: 1.25rem 5rem; }
+
+.btn-secondary {
+  background: #040040;
+  padding: 1rem 1.5rem; }
+  .btn-secondary:hover {
+    background: #713d50;
+    padding: 1rem 4rem; }
+
+.bright:hover {
+  filter: brightness(200%); }
 
 * {
   margin: 0;
@@ -70,8 +82,8 @@ ul {
     z-index: -2;
     right: -480px;
     top: -120px;
-    -webkit-filter: drop-shadow(-5px 10px 5px #cccccc);
-    filter: drop-shadow(-5px 10px 5px #cccccc); }
+    -webkit-filter: drop-shadow(-3px 10px 5px #d9d9d9);
+    filter: drop-shadow(-3px 10px 5px #d9d9d9); }
   #header-home #decor-2 {
     position: absolute;
     z-index: -1;
@@ -91,15 +103,34 @@ ul {
     #header-home #header-content .header-btn {
       display: block;
       margin-top: 17%; }
-    #header-home #header-content i {
+    #header-home #header-content .down-arrow {
       margin-top: 17%;
-      color: #040040; }
+      height: auto;
+      width: 3%;
+      margin-left: auto;
+      margin-right: auto; }
 
 #home-a {
   text-align: center;
-  margin-top: 4rem;
-  padding-top: 3.5rem;
+  margin: 6rem 0;
   position: relative; }
+  #home-a #decor2 {
+    position: absolute;
+    z-index: -2;
+    left: -700px;
+    top: 100px;
+    -webkit-filter: drop-shadow(5px 10px 5px #d9d9d9);
+    filter: drop-shadow(5px 10px 5px #d9d9d9); }
+  #home-a #line1 {
+    position: absolute;
+    z-index: 2;
+    bottom: -100px;
+    right: -100px; }
+  #home-a #line2 {
+    position: absolute;
+    z-index: 2;
+    bottom: -275px;
+    right: 50px; }
   #home-a .brief-about-title {
     display: block;
     height: auto;
@@ -107,8 +138,8 @@ ul {
     margin-left: auto;
     margin-right: auto; }
   #home-a .brief-about {
-    padding: 0 30%;
-    padding-top: 1rem; }
+    padding: 1rem 30%;
+    margin-bottom: 1rem; }
     #home-a .brief-about p {
       font-size: 1.25rem;
       margin-bottom: 2rem; }

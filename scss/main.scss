@@ -74,14 +74,15 @@ ul {
         height: 100vh;
         position: relative;
 
+        // Background Marble 1
         #decor-1 {
             position: absolute;
             z-index: -2;
             right: -480px;
             top: -120px;
 
-            -webkit-filter: drop-shadow(-5px 10px 5px #cccccc);
-            filter: drop-shadow(-5px 10px 5px #cccccc);
+            -webkit-filter: drop-shadow(-3px 10px 5px #d9d9d9);
+            filter: drop-shadow(-3px 10px 5px #d9d9d9);
         }
 
         #decor-2 {
@@ -91,6 +92,7 @@ ul {
             top: -120px;
         }
 
+        // Main Header Content
         #header-content {
             position: absolute;
             // z-index: 100;
@@ -111,9 +113,12 @@ ul {
                 margin-top: 17%;
             }
 
-            i {
+            .down-arrow {
                 margin-top: 17%;
-                color: #040040;
+                height: auto;
+                width: 3%;
+                margin-left: auto;
+                margin-right: auto;
             }
         }
     }
@@ -122,10 +127,37 @@ ul {
 // Home Section A
 #home-a{
     text-align: center;
-    margin-top: 4rem;
-    padding-top: 3.5rem;
+    margin: 6rem 0;
+    // padding: 3.5rem 0;
     position: relative;
 
+    // Background Marble Effect 2
+    #decor2 {
+        position: absolute;
+        z-index: -2;
+        left: -700px;
+        top: 100px;
+
+        -webkit-filter: drop-shadow(5px 10px 5px #d9d9d9);
+        filter: drop-shadow(5px 10px 5px #d9d9d9);
+    }
+
+    // Line Graphics
+    #line1 {
+        position: absolute;
+        z-index: 2;
+        bottom: -100px;
+        right: -100px;
+    }
+    
+    #line2 {
+        position: absolute;
+        z-index: 2;
+        bottom: -275px;
+        right: 50px;
+    }
+
+    // Brief About Section Content
     .brief-about-title {
         display: block;
         height: auto;
@@ -135,8 +167,8 @@ ul {
     }
 
     .brief-about {
-        padding: 0 30%;
-        padding-top: 1rem;
+        padding: 1rem 30%;
+        margin-bottom: 1rem;
         p {
             font-size: 1.25rem;
             margin-bottom: 2rem;
