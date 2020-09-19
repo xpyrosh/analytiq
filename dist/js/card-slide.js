@@ -6,6 +6,7 @@ $(document).ready(function() {
             var bottom_of_window = $(window).scrollTop() + $(window).height();
 
             console.log(bottom_of_element);
+
             // console.log(bottom_of_window);
 
             // console.log($(this).offset().top);
@@ -22,10 +23,15 @@ $(document).ready(function() {
                 $('.card2').animate({'right':'75px'},1000);
             }
 
-            if ($(window).scrollTop() > bottom_of_element - 20 || bottom_of_window < $(this).offset().top + 20) {
+            if ($(window).scrollTop() > bottom_of_element){
                 $('.card1').animate({'left':'200px'}, 1000);
                 $('.card2').animate({'right':'200px'}, 1000);
             }
+
+            // if ($(window).scrollTop() > bottom_of_element - 20 || bottom_of_window < $(this).offset().top + 20) {
+            //     $('.card1').animate({'left':'200px'}, 1000);
+            //     $('.card2').animate({'right':'200px'}, 1000);
+            // }
             
         }); 
     });
