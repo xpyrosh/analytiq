@@ -43,7 +43,7 @@ ul {
   #main-nav #logo {
     width: auto;
     height: auto;
-    max-height: 50px; }
+    max-height: 3rem; }
   #main-nav ul {
     display: flex;
     font-size: 1.25rem; }
@@ -94,3 +94,21 @@ ul {
     #header-home #header-content i {
       margin-top: 17%;
       color: #040040; }
+
+#home-a {
+  text-align: center;
+  margin-top: 4rem;
+  padding-top: 3.5rem;
+  position: relative; }
+  #home-a .brief-about-title {
+    display: block;
+    height: auto;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto; }
+  #home-a .brief-about {
+    padding: 0 30%;
+    padding-top: 1rem; }
+    #home-a .brief-about p {
+      font-size: 1.25rem;
+      margin-bottom: 2rem; }

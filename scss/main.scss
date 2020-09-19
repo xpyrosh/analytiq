@@ -37,7 +37,7 @@ ul {
     #logo {
         width: auto;
         height: auto;
-        max-height: 50px;
+        max-height: 3rem;
     }
 
     ul {
@@ -115,6 +115,31 @@ ul {
                 margin-top: 17%;
                 color: #040040;
             }
+        }
+    }
+}
+
+// Home Section A
+#home-a{
+    text-align: center;
+    margin-top: 4rem;
+    padding-top: 3.5rem;
+    position: relative;
+
+    .brief-about-title {
+        display: block;
+        height: auto;
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .brief-about {
+        padding: 0 30%;
+        padding-top: 1rem;
+        p {
+            font-size: 1.25rem;
+            margin-bottom: 2rem;
         }
     }
 }
