@@ -3,6 +3,7 @@
     position: relative;
     padding: 0 1.5rem;
     margin: auto;
+    text-align: center;
     // overflow: hidden; 
 }
 
@@ -36,7 +37,7 @@
     // Secondary Button
     &-secondary {
         @extend %btn-shared;
-        background: #040040;
+        background: $secondary-color;
         padding: 1rem 1.5rem;
         &:hover {
             background: #713d50;
@@ -50,4 +51,17 @@
     &:hover {
         filter: brightness(200%);
     }
+}
+
+// Card
+.card {
+    width: 550px;
+    height: 650px;
+    background: $bg-color;
+
+    border: 1px solid #d9d9d9;
+    border-radius: 30px;
+
+    -webkit-filter: drop-shadow(5px 10px 5px #d9d9d9);
+    filter: drop-shadow(5px 10px 5px #d9d9d9);
 }

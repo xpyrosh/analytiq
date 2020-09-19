@@ -2,7 +2,8 @@
   max-width: 1280px;
   position: relative;
   padding: 0 1.5rem;
-  margin: auto; }
+  margin: auto;
+  text-align: center; }
 
 .btn-main, .btn-secondary {
   color: white;
@@ -30,6 +31,15 @@
 .bright:hover {
   filter: brightness(200%); }
 
+.card {
+  width: 550px;
+  height: 650px;
+  background: #f6f6f6;
+  border: 1px solid #d9d9d9;
+  border-radius: 30px;
+  -webkit-filter: drop-shadow(5px 10px 5px #d9d9d9);
+  filter: drop-shadow(5px 10px 5px #d9d9d9); }
+
 * {
   margin: 0;
   padding: 0; }
@@ -40,6 +50,15 @@ body {
   background: #f6f6f6;
   max-width: 100%;
   overflow-x: hidden; }
+
+h1 {
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: 800;
+  color: #040040;
+  display: inline-block;
+  padding-bottom: .5rem;
+  border-bottom: 3px #bd9235 solid; }
 
 a {
   text-decoration: none;
@@ -111,7 +130,6 @@ ul {
       margin-right: auto; }
 
 #home-a {
-  text-align: center;
   margin: 6rem 0;
   position: relative; }
   #home-a #decor2 {
@@ -143,3 +161,10 @@ ul {
     #home-a .brief-about p {
       font-size: 1.25rem;
       margin-bottom: 2rem; }
+
+#home-b {
+  position: relative;
+  margin: 6rem 0;
+  padding-top: 6rem; }
+  #home-b .wwdcards {
+    padding-top: 2rem; }
