@@ -32,7 +32,7 @@ h1 {
 }
 
 h2 {
-    font-weight: 600;
+    font-weight: 700;
     color: #535353;
     padding: .5rem 0;
 }
@@ -197,12 +197,20 @@ ul {
     
     margin: 6rem 0;
     padding-top: 6rem;
+
+    h1 {
+        margin-bottom: 3rem;
+    }
     
     .wwdcards {
         position: relative;
         padding-top: 2rem;
-
+        transition: all 2s;
         .card1 {
+            position: absolute;
+            top: 0;
+            left: 200px;
+
             #angled-line {
                 float: right;
             }
@@ -223,6 +231,10 @@ ul {
         }
 
         .card2 {
+            position: absolute;
+            top: 50px;
+            right: 200px;
+
             #angled-line {
                 float: left;
             }
@@ -244,4 +256,9 @@ ul {
             }
         }
     }
+
+    .wwd-button {
+        margin-top: 750px;
+    }
+    
 }

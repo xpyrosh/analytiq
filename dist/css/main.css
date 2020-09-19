@@ -36,7 +36,7 @@
   height: 650px;
   background: #f6f6f6;
   border: 1px solid #d9d9d9;
-  border-radius: 30px;
+  border-radius: 50px;
   -webkit-filter: drop-shadow(5px 10px 5px #d9d9d9);
   filter: drop-shadow(5px 10px 5px #d9d9d9); }
 
@@ -61,7 +61,7 @@ h1 {
   border-bottom: 3px #bd9235 solid; }
 
 h2 {
-  font-weight: 600;
+  font-weight: 700;
   color: #535353;
   padding: .5rem 0; }
 
@@ -170,29 +170,42 @@ ul {
 #home-b {
   margin: 6rem 0;
   padding-top: 6rem; }
+  #home-b h1 {
+    margin-bottom: 3rem; }
   #home-b .wwdcards {
     position: relative;
-    padding-top: 2rem; }
-    #home-b .wwdcards .card1 #angled-line {
-      float: right; }
-    #home-b .wwdcards .card1 #graphic {
+    padding-top: 2rem;
+    transition: all 2s; }
+    #home-b .wwdcards .card1 {
       position: absolute;
-      top: 75px;
-      left: 150px; }
-    #home-b .wwdcards .card1 .card-text {
-      display: inline-block; }
-    #home-b .wwdcards .card1 h1 {
-      font-size: 1.5rem;
-      padding-top: 1rem; }
-    #home-b .wwdcards .card2 #angled-line {
-      float: left; }
-    #home-b .wwdcards .card2 #graphic {
+      top: 0;
+      left: 200px; }
+      #home-b .wwdcards .card1 #angled-line {
+        float: right; }
+      #home-b .wwdcards .card1 #graphic {
+        position: absolute;
+        top: 75px;
+        left: 150px; }
+      #home-b .wwdcards .card1 .card-text {
+        display: inline-block; }
+      #home-b .wwdcards .card1 h1 {
+        font-size: 1.5rem;
+        padding-top: 1rem; }
+    #home-b .wwdcards .card2 {
       position: absolute;
-      top: 75px;
-      right: 10px; }
-    #home-b .wwdcards .card2 .card-text {
-      display: inline-block; }
-    #home-b .wwdcards .card2 h1 {
-      padding-top: 1rem;
-      font-size: 1.5rem;
-      color: #703d50; }
+      top: 50px;
+      right: 200px; }
+      #home-b .wwdcards .card2 #angled-line {
+        float: left; }
+      #home-b .wwdcards .card2 #graphic {
+        position: absolute;
+        top: 75px;
+        right: 10px; }
+      #home-b .wwdcards .card2 .card-text {
+        display: inline-block; }
+      #home-b .wwdcards .card2 h1 {
+        padding-top: 1rem;
+        font-size: 1.5rem;
+        color: #703d50; }
+  #home-b .wwd-button {
+    margin-top: 750px; }
