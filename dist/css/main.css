@@ -174,12 +174,12 @@ ul {
     margin-bottom: 3rem; }
   #home-b .wwdcards {
     position: relative;
-    padding-top: 2rem;
-    transition: all 2s; }
+    padding-top: 2rem; }
     #home-b .wwdcards .card1 {
       position: absolute;
       top: 0;
-      left: 200px; }
+      left: 200px;
+      transition: all 1s ease; }
       #home-b .wwdcards .card1 #angled-line {
         float: right; }
       #home-b .wwdcards .card1 #graphic {
@@ -191,10 +191,15 @@ ul {
       #home-b .wwdcards .card1 h1 {
         font-size: 1.5rem;
         padding-top: 1rem; }
+      #home-b .wwdcards .card1:hover {
+        transform: translateX(-125px); }
+      #home-b .wwdcards .card1:hover ~ .card2 {
+        transform: translateX(125px); }
     #home-b .wwdcards .card2 {
       position: absolute;
       top: 50px;
-      right: 200px; }
+      right: 200px;
+      transition: all 1s ease; }
       #home-b .wwdcards .card2 #angled-line {
         float: left; }
       #home-b .wwdcards .card2 #graphic {

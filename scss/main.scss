@@ -205,11 +205,11 @@ ul {
     .wwdcards {
         position: relative;
         padding-top: 2rem;
-        transition: all 2s;
         .card1 {
             position: absolute;
             top: 0;
             left: 200px;
+            transition: all 1s ease;
 
             #angled-line {
                 float: right;
@@ -228,12 +228,23 @@ ul {
                 font-size: 1.5rem;
                 padding-top: 1rem;
             }
+
+            // Slide the cards over on hover
+            &:hover {
+                transform: translateX(-125px);
+            }
+
+            // ~ allows me to grab a sibling element
+            &:hover ~ .card2 {
+                transform: translateX(125px);
+            }
         }
 
         .card2 {
             position: absolute;
             top: 50px;
             right: 200px;
+            transition: all 1s ease;
 
             #angled-line {
                 float: left;
