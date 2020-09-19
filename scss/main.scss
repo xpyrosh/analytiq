@@ -24,11 +24,13 @@ h1 {
     font-size: 2rem;
     font-weight: 800;
     color: $secondary-color;
+    margin-bottom: 1rem;
 
     // Adding Underline
     display: inline-block;
     padding-bottom: .5rem;
     border-bottom: 3px $primary-color solid;  
+
 }
 
 h2 {
@@ -198,7 +200,7 @@ ul {
     margin: 6rem 0;
     padding-top: 6rem;
 
-    h1 {
+    .wwd-h1 {
         margin-bottom: 3rem;
     }
     
@@ -209,7 +211,7 @@ ul {
             position: absolute;
             top: 0;
             left: 200px;
-            transition: all 1s ease;
+            transition: all ease;
 
             #angled-line {
                 float: right;
@@ -229,22 +231,22 @@ ul {
                 padding-top: 1rem;
             }
 
-            // Slide the cards over on hover
-            &:hover {
-                transform: translateX(-125px);
-            }
+            // // Slide the cards over on hover
+            // &:hover {
+            //     transform: translateX(-125px);
+            // }
 
-            // ~ allows me to grab a sibling element
-            &:hover ~ .card2 {
-                transform: translateX(125px);
-            }
+            // // ~ allows me to grab a sibling element
+            // &:hover ~ .card2 {
+            //     transform: translateX(125px);
+            // }
         }
 
         .card2 {
             position: absolute;
             top: 50px;
             right: 200px;
-            transition: all 1s ease;
+            transition: all ease;
 
             #angled-line {
                 float: left;
@@ -265,6 +267,11 @@ ul {
                 font-size: 1.5rem;
                 color: #703d50;
             }
+
+            // // Slide the cards over on hover
+            // &:hover {
+            //     transform: translateX(125px);
+            // }
         }
     }
 

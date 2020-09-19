@@ -56,6 +56,7 @@ h1 {
   font-size: 2rem;
   font-weight: 800;
   color: #040040;
+  margin-bottom: 1rem;
   display: inline-block;
   padding-bottom: .5rem;
   border-bottom: 3px #bd9235 solid; }
@@ -170,7 +171,7 @@ ul {
 #home-b {
   margin: 6rem 0;
   padding-top: 6rem; }
-  #home-b h1 {
+  #home-b .wwd-h1 {
     margin-bottom: 3rem; }
   #home-b .wwdcards {
     position: relative;
@@ -179,7 +180,7 @@ ul {
       position: absolute;
       top: 0;
       left: 200px;
-      transition: all 1s ease; }
+      transition: all ease; }
       #home-b .wwdcards .card1 #angled-line {
         float: right; }
       #home-b .wwdcards .card1 #graphic {
@@ -191,15 +192,11 @@ ul {
       #home-b .wwdcards .card1 h1 {
         font-size: 1.5rem;
         padding-top: 1rem; }
-      #home-b .wwdcards .card1:hover {
-        transform: translateX(-125px); }
-      #home-b .wwdcards .card1:hover ~ .card2 {
-        transform: translateX(125px); }
     #home-b .wwdcards .card2 {
       position: absolute;
       top: 50px;
       right: 200px;
-      transition: all 1s ease; }
+      transition: all ease; }
       #home-b .wwdcards .card2 #angled-line {
         float: left; }
       #home-b .wwdcards .card2 #graphic {
