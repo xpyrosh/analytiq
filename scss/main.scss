@@ -31,6 +31,12 @@ h1 {
     border-bottom: 3px $primary-color solid;  
 }
 
+h2 {
+    font-weight: 600;
+    color: #535353;
+    padding: .5rem 0;
+}
+
 a {
     text-decoration: none;
     color: $navbar-text;
@@ -188,11 +194,54 @@ ul {
 
 // Home Section B
 #home-b {
-    position: relative;
+    
     margin: 6rem 0;
     padding-top: 6rem;
     
     .wwdcards {
+        position: relative;
         padding-top: 2rem;
+
+        .card1 {
+            #angled-line {
+                float: right;
+            }
+            #graphic {
+                position: absolute;
+                top: 75px;
+                left: 150px;
+            }
+
+            .card-text{
+                display: inline-block;
+            }
+
+            h1 {
+                font-size: 1.5rem;
+                padding-top: 1rem;
+            }
+        }
+
+        .card2 {
+            #angled-line {
+                float: left;
+            }
+
+            #graphic {
+                position: absolute;
+                top: 75px;
+                right: 10px;
+            }
+
+            .card-text {
+                display: inline-block;
+            }
+
+            h1 {
+                padding-top: 1rem;
+                font-size: 1.5rem;
+                color: #703d50;
+            }
+        }
     }
 }

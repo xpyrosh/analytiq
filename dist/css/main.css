@@ -60,6 +60,11 @@ h1 {
   padding-bottom: .5rem;
   border-bottom: 3px #bd9235 solid; }
 
+h2 {
+  font-weight: 600;
+  color: #535353;
+  padding: .5rem 0; }
+
 a {
   text-decoration: none;
   color: #969696; }
@@ -163,8 +168,31 @@ ul {
       margin-bottom: 2rem; }
 
 #home-b {
-  position: relative;
   margin: 6rem 0;
   padding-top: 6rem; }
   #home-b .wwdcards {
+    position: relative;
     padding-top: 2rem; }
+    #home-b .wwdcards .card1 #angled-line {
+      float: right; }
+    #home-b .wwdcards .card1 #graphic {
+      position: absolute;
+      top: 75px;
+      left: 150px; }
+    #home-b .wwdcards .card1 .card-text {
+      display: inline-block; }
+    #home-b .wwdcards .card1 h1 {
+      font-size: 1.5rem;
+      padding-top: 1rem; }
+    #home-b .wwdcards .card2 #angled-line {
+      float: left; }
+    #home-b .wwdcards .card2 #graphic {
+      position: absolute;
+      top: 75px;
+      right: 10px; }
+    #home-b .wwdcards .card2 .card-text {
+      display: inline-block; }
+    #home-b .wwdcards .card2 h1 {
+      padding-top: 1rem;
+      font-size: 1.5rem;
+      color: #703d50; }
