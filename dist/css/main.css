@@ -53,13 +53,13 @@ body {
 
 h1 {
   text-transform: uppercase;
-  font-size: 2rem;
+  font-size: 2.1rem;
   font-weight: 800;
   color: #040040;
   margin-bottom: 1rem;
   display: inline-block;
   padding-bottom: .5rem;
-  border-bottom: 3px #bd9235 solid; }
+  border-bottom: 2px #bd9235 solid; }
 
 h2 {
   font-weight: 700;
@@ -211,3 +211,41 @@ ul {
         color: #703d50; }
   #home-b .wwd-button {
     margin-top: 750px; }
+
+#home-c {
+  background: url("/dist/img/Toronto.png") no-repeat center center/cover;
+  width: 100%;
+  padding-bottom: 10%;
+  justify-content: center;
+  align-items: center; }
+  #home-c .testimonials {
+    padding-top: 3rem; }
+    #home-c .testimonials h1 {
+      color: white;
+      margin-bottom: 5rem; }
+    #home-c .testimonials .customer-comments p {
+      font-weight: 700;
+      font-style: italic;
+      color: white;
+      font-size: 1.6rem; }
+    #home-c .testimonials .customer-comments h3 {
+      color: white;
+      font-size: 1rem; }
+    #home-c .testimonials .customer-comments .comment1 {
+      padding-bottom: 5rem;
+      text-align: left;
+      padding-right: 25%; }
+      #home-c .testimonials .customer-comments .comment1 h3 {
+        padding-top: 1rem;
+        text-align: right; }
+    #home-c .testimonials .customer-comments .comment2 {
+      padding-bottom: 5rem;
+      text-align: right;
+      padding-left: 25%; }
+      #home-c .testimonials .customer-comments .comment2 h3 {
+        padding-top: 1rem;
+        text-align: left; }
+
+#home-d {
+  background: white;
+  margin-top: 4rem; }
