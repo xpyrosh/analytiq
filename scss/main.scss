@@ -282,7 +282,7 @@ ul {
 
 // Home Section C
 #home-c {
-    background: url('/dist/img/Toronto.png') no-repeat center center / cover;
+    background: white url('/dist/img/Toronto.png') no-repeat center center / cover;
     width: 100%;
     padding-bottom: 10%;
     justify-content: center;
@@ -334,5 +334,13 @@ ul {
 // Home Section D
 #home-d {
     background: white;
-    margin-top: 4rem;
+    padding: 4rem 0;
+    img {
+        padding: 3rem 0;
+        margin-right: auto;
+        margin-left: auto;
+        height: auto;
+        display: block;
+        width: 95%;
+    }
 }
