@@ -16,9 +16,9 @@
   transition: all .3s; }
 
 .btn-main {
-  background-image: linear-gradient(to right, #080341, #63364e); }
+  background-image: linear-gradient(to right, #040040, #713d50); }
   .btn-main:hover {
-    background-image: linear-gradient(to right, #63364e, #080341);
+    background-image: linear-gradient(to right, #713d50, #040040);
     padding: 1.25rem 5rem; }
 
 .btn-secondary {
