@@ -8,6 +8,19 @@
     padding: 0;
 }
 
+// Adding a slightly less abrupt scroll animation to anchor tags
+html {
+    scroll-behavior: smooth;
+}
+
+// Use the target and before to create an offset for the anchor
+:target:before {
+    content: "";
+    display: block;
+    height: 100px;
+    margin: -100px 0 0;
+}
+
 // Body
 body {
     font-family: 'Open Sans', sans-serif;
