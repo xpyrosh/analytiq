@@ -49,7 +49,7 @@ h1 {
 h2 {
     font-weight: 700;
     color: #535353;
-    padding: .5rem 0;
+    padding: .25rem 0;
 }
 
 a {
@@ -129,7 +129,7 @@ ul {
         #header-content {
             position: absolute;
             // z-index: 100;
-            padding-top: 17%;
+            padding-top: 23vh;
             align-items: center;
             text-align: center;
             
@@ -141,11 +141,11 @@ ul {
             }
 
             .header-btn {
-                margin-top: 15%;
+                margin-top: 20vh;
             }
 
             .down-arrow {
-                margin-top: 15%;
+                margin-top: 20vh;
                 height: auto;
                 width: 3%;
                 margin-left: auto;
@@ -164,7 +164,7 @@ ul {
     #decor2 {
         position: absolute;
         z-index: -2;
-        left: -700px;
+        left: -800px;
         top: 100px;
 
         -webkit-filter: drop-shadow(5px 10px 5px #d9d9d9);
@@ -230,7 +230,7 @@ ul {
             #graphic {
                 position: absolute;
                 top: 75px;
-                left: 150px;
+                left: 125px;
             }
 
             .card-text{
@@ -256,7 +256,11 @@ ul {
             #graphic {
                 position: absolute;
                 top: 75px;
-                right: 10px;
+                right: 15px;
+                margin-right: auto;
+                margin-left: auto;
+                height: auto;
+                width: 92%;
             }
 
             .card-text {
@@ -272,7 +276,7 @@ ul {
     }
 
     .wwd-button {
-        margin-top: 750px;
+        margin-top: 675px;
     }
 }
 

@@ -56,8 +56,8 @@
   overflow: hidden; }
 
 .card-m {
-  width: 550px;
-  height: 650px; }
+  width: 500px;
+  height: 600px; }
 
 * {
   margin: 0;
@@ -92,7 +92,7 @@ h1 {
 h2 {
   font-weight: 700;
   color: #535353;
-  padding: .5rem 0; }
+  padding: .25rem 0; }
 
 a {
   text-decoration: none;
@@ -144,7 +144,7 @@ ul {
     top: -120px; }
   #header-home #header-content {
     position: absolute;
-    padding-top: 17%;
+    padding-top: 23vh;
     align-items: center;
     text-align: center; }
     #header-home #header-content .header-title {
@@ -153,9 +153,9 @@ ul {
       margin-left: auto;
       margin-right: auto; }
     #header-home #header-content .header-btn {
-      margin-top: 15%; }
+      margin-top: 20vh; }
     #header-home #header-content .down-arrow {
-      margin-top: 15%;
+      margin-top: 20vh;
       height: auto;
       width: 3%;
       margin-left: auto;
@@ -167,7 +167,7 @@ ul {
   #home-a #decor2 {
     position: absolute;
     z-index: -2;
-    left: -700px;
+    left: -800px;
     top: 100px;
     -webkit-filter: drop-shadow(5px 10px 5px #d9d9d9);
     filter: drop-shadow(5px 10px 5px #d9d9d9); }
@@ -212,7 +212,7 @@ ul {
       #home-b .wwdcards .card1 #graphic {
         position: absolute;
         top: 75px;
-        left: 150px; }
+        left: 125px; }
       #home-b .wwdcards .card1 .card-text {
         display: inline-block; }
       #home-b .wwdcards .card1 h1 {
@@ -228,7 +228,11 @@ ul {
       #home-b .wwdcards .card2 #graphic {
         position: absolute;
         top: 75px;
-        right: 10px; }
+        right: 15px;
+        margin-right: auto;
+        margin-left: auto;
+        height: auto;
+        width: 92%; }
       #home-b .wwdcards .card2 .card-text {
         display: inline-block; }
       #home-b .wwdcards .card2 h1 {
@@ -236,7 +240,7 @@ ul {
         font-size: 1.5rem;
         color: #703d50; }
   #home-b .wwd-button {
-    margin-top: 750px; }
+    margin-top: 675px; }
 
 #home-c {
   background: white url("../img/Toronto.png") no-repeat center center/cover;
