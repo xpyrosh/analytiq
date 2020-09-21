@@ -16,14 +16,15 @@ $(document).ready(function() {
             console.log(top_of_window);
             console.log(top_of_element);
             
-            if( (bottom_of_window > (bottom_of_element - cardHalf)) && (top_of_window < top_of_element)){
+            // if( (bottom_of_window > (bottom_of_element - cardHalf)) && (top_of_window < top_of_element)){
+            if(bottom_of_window > (bottom_of_element - cardHalf)){
                 $('.card1').animate({'left':'115px'},1000);
                 $('.card2').animate({'right':'115px'},1000);
             }
-            else if (top_of_window > bottom_of_element-10){
-                $('.card1').animate({'left':'200px'}, 1000);
-                $('.card2').animate({'right':'200px'}, 1000);
-            }
+            // else if (top_of_window > bottom_of_element-10){
+            //     $('.card1').animate({'left':'200px'}, 1000);
+            //     $('.card2').animate({'right':'200px'}, 1000);
+            // }
             
 
             // For some reason this causes an infinite animation loop of separating and joining when scrolling back up after passing the card
