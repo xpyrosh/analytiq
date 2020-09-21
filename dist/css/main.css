@@ -69,8 +69,8 @@ html {
 :target:before {
   content: "";
   display: block;
-  height: 100px;
-  margin: -100px 0 0; }
+  height: 10vh;
+  margin: -10vh 0 0; }
 
 body {
   font-family: 'Open Sans', sans-serif;
