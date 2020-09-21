@@ -83,6 +83,7 @@
         justify-content: space-between;
         align-items: flex-start;
         text-align: left;
+        overflow: hidden;
     }
     &-m {
         @extend %card-shared;

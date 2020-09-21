@@ -52,7 +52,8 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
-  text-align: left; }
+  text-align: left;
+  overflow: hidden; }
 
 .card-m {
   width: 550px;
