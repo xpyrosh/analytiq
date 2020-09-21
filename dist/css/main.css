@@ -5,7 +5,7 @@
   margin: auto;
   text-align: center; }
 
-.btn-main, .btn-secondary {
+.btn-main, .btn-secondary, .btn-tertiary {
   color: white;
   font-size: 1.5rem;
   padding: 1.25rem 2rem;
@@ -28,17 +28,35 @@
     background: #713d50;
     padding: 1rem 4rem; }
 
+.btn-tertiary {
+  background: #bd9235;
+  padding: 1rem 1.5rem; }
+  .btn-tertiary:hover {
+    background: #713d50; }
+
 .bright:hover {
   filter: brightness(200%); }
 
-.card {
-  width: 550px;
-  height: 650px;
+.card-s, .card-m {
   background: #f6f6f6;
   border: 1px solid #d9d9d9;
   border-radius: 50px;
   -webkit-filter: drop-shadow(5px 10px 5px #d9d9d9);
   filter: drop-shadow(5px 10px 5px #d9d9d9); }
+
+.card-s {
+  width: 460px;
+  height: 500px;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  text-align: left; }
+
+.card-m {
+  width: 550px;
+  height: 650px; }
 
 * {
   margin: 0;
@@ -129,16 +147,14 @@ ul {
     align-items: center;
     text-align: center; }
     #header-home #header-content .header-title {
-      display: block;
       width: 92%;
       height: auto;
       margin-left: auto;
       margin-right: auto; }
     #header-home #header-content .header-btn {
-      display: block;
-      margin-top: 17%; }
+      margin-top: 15%; }
     #header-home #header-content .down-arrow {
-      margin-top: 17%;
+      margin-top: 15%;
       height: auto;
       width: 3%;
       margin-left: auto;
@@ -265,3 +281,78 @@ ul {
     height: auto;
     display: block;
     width: 95%; }
+
+#home-e {
+  position: relative;
+  margin: 3rem 0; }
+  #home-e #decor3 {
+    position: absolute;
+    left: -700px;
+    top: -575px;
+    z-index: -2;
+    -webkit-filter: drop-shadow(3px 10px 5px #d9d9d9);
+    filter: drop-shadow(3px 10px 5px #d9d9d9); }
+  #home-e h1 {
+    margin-bottom: 3rem; }
+  #home-e h2 {
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: white;
+    padding: 2rem;
+    font-weight: 800; }
+  #home-e .btn-space {
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    align-self: flex-start; }
+  #home-e .recent-articles {
+    display: flex; }
+    #home-e .recent-articles .card1 {
+      background: url("https://source.unsplash.com/random") no-repeat center center/cover; }
+    #home-e .recent-articles .card2 {
+      background: url("https://source.unsplash.com/user/erondu") no-repeat center center/cover; }
+    #home-e .recent-articles .card3 {
+      background: url("https://source.unsplash.com/collection/190727") no-repeat center center/cover; }
+
+#home-f {
+  margin: 8rem 0; }
+  #home-f h1 {
+    margin-top: 3rem;
+    color: black; }
+  #home-f p {
+    font-size: 1.25rem;
+    padding: 0 20%; }
+  #home-f .contact-cards {
+    display: flex;
+    margin: 2rem 0; }
+    #home-f .contact-cards h3 {
+      padding: 2rem 2rem;
+      padding-bottom: .5rem;
+      font-weight: normal;
+      font-size: 1.5rem; }
+    #home-f .contact-cards .logo {
+      display: block;
+      height: auto;
+      width: auto;
+      max-height: 2.5rem;
+      padding-left: 1.75rem; }
+    #home-f .contact-cards .card1 {
+      display: flex;
+      justify-content: unset; }
+      #home-f .contact-cards .card1 .contact-info {
+        padding-top: 2.5rem; }
+        #home-f .contact-cards .card1 .contact-info div {
+          padding-bottom: 2rem;
+          display: flex; }
+          #home-f .contact-cards .card1 .contact-info div i {
+            display: flex;
+            flex-direction: column;
+            padding-left: 2rem;
+            justify-content: center;
+            align-items: center; }
+          #home-f .contact-cards .card1 .contact-info div p {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding-left: 2rem;
+            font-size: 1rem; }

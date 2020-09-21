@@ -38,8 +38,18 @@
         background: $secondary-color;
         padding: 1rem 1.5rem;
         &:hover {
-            background: #713d50;
+            background: $tertiary-color;
             padding: 1rem 4rem;
+        }
+    }
+
+    // Tertiary Button
+    &-tertiary {
+        @extend %btn-shared;
+        background: $primary-color;
+        padding: 1rem 1.5rem;
+        &:hover {
+            background: $tertiary-color;
         }
     }
 }
@@ -52,9 +62,7 @@
 }
 
 // Card
-.card {
-    width: 550px;
-    height: 650px;
+%card-shared {
     background: $bg-color;
 
     border: 1px solid #d9d9d9;
@@ -62,4 +70,23 @@
 
     -webkit-filter: drop-shadow(5px 10px 5px #d9d9d9);
     filter: drop-shadow(5px 10px 5px #d9d9d9);
+}
+
+.card {
+    &-s {
+        @extend %card-shared;
+        width: 460px;
+        height: 500px;
+        margin: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        text-align: left;
+    }
+    &-m {
+        @extend %card-shared;
+        width: 550px;
+        height: 650px;
+    }
 }
