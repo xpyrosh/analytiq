@@ -361,3 +361,27 @@ ul {
             align-items: center;
             padding-left: 2rem;
             font-size: 1rem; }
+    #home-f .contact-cards .card2 {
+      justify-content: flex-start; }
+      #home-f .contact-cards .card2 .contact-form {
+        padding-top: 1rem;
+        align-self: center;
+        width: 90%;
+        overflow: hidden; }
+        #home-f .contact-cards .card2 .contact-form .text-fields {
+          display: flex;
+          flex-direction: column; }
+          #home-f .contact-cards .card2 .contact-form .text-fields .text-input {
+            padding: .5rem .75rem;
+            margin-bottom: 1rem;
+            border: 1px solid #bd9235;
+            border-radius: 20px;
+            font-size: 1rem;
+            transition: all .3s ease; }
+          #home-f .contact-cards .card2 .contact-form .text-fields .text-input:focus {
+            border: 1px solid #713d50;
+            box-shadow: 0 0 5px #713d50; }
+          #home-f .contact-cards .card2 .contact-form .text-fields .message-input {
+            height: 15vh; }
+        #home-f .contact-cards .card2 .contact-form button {
+          font-size: 1rem; }

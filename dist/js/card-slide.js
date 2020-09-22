@@ -18,8 +18,8 @@ $(document).ready(function() {
             
             // if( (bottom_of_window > (bottom_of_element - cardHalf)) && (top_of_window < top_of_element)){
             if(bottom_of_window > (bottom_of_element - cardHalf)){
-                $('.card1').animate({'left':'115px'},1000);
-                $('.card2').animate({'right':'115px'},1000);
+                $('.card1').animate({'left':'115px'},500);
+                $('.card2').animate({'right':'115px'},500);
             }
             // else if (top_of_window > bottom_of_element-10){
             //     $('.card1').animate({'left':'200px'}, 1000);

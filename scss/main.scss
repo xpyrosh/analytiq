@@ -449,5 +449,41 @@ ul {
                 }
             }
         }
+
+        .card2 {
+            justify-content: flex-start;
+            .contact-form{
+                padding-top: 1rem;
+                align-self: center;
+                width: 90%;
+                overflow: hidden;
+                .text-fields {
+                    display: flex;
+                    flex-direction: column;
+    
+                    .text-input {
+                        padding: .5rem .75rem;
+                        margin-bottom: 1rem;
+                        border: 1px solid $primary-color;
+                        border-radius: 20px;
+                        font-size: 1rem;
+                        transition: all .3s ease;
+                    }
+
+                    .text-input:focus {
+                        border: 1px solid $tertiary-color;
+                        box-shadow: 0 0 5px $tertiary-color;
+                    }
+
+                    .message-input {
+                        height: 15vh;
+                    }
+                }
+
+                button {
+                    font-size: 1rem;
+                }
+            }
+        }
     }
 }
