@@ -471,7 +471,9 @@ ul {
                     }
 
                     .text-input:focus {
-                        border: 1px solid $tertiary-color;
+                        // border: 1px solid $tertiary-color;
+                        -webkit-box-shadow: 0 0 5px $tertiary-color;
+                        -moz-box-shadow: 0 0 5px $tertiary-color;
                         box-shadow: 0 0 5px $tertiary-color;
                     }
 
@@ -482,8 +484,14 @@ ul {
 
                 button {
                     font-size: 1rem;
+                    border: none;
                 }
             }
         }
     }
+}
+
+// Needed to fix Chrome and Edge error with :focus creating black box border 
+*,*:focus,*:hover{
+    outline:none;
 }
