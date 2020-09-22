@@ -1,6 +1,6 @@
 $(document).ready(function() {
     $(window).scroll( function(){
-        $('.card').each( function(i){
+        $('.try-something').each( function(i){
             
             var bottom_of_element = $(this).offset().top + $(this).outerHeight();
             var bottom_of_window = $(window).scrollTop() + $(window).height();
@@ -16,24 +16,14 @@ $(document).ready(function() {
             console.log(top_of_window);
             console.log(top_of_element);
             
-            // if( (bottom_of_window > (bottom_of_element - cardHalf)) && (top_of_window < top_of_element)){
-            if(bottom_of_window > (bottom_of_element - cardHalf)){
+            if(bottom_of_window > (bottom_of_element - cardHalf) && top_of_window < bottom_of_element){
                 $('.card1').animate({'left':'115px'},500);
                 $('.card2').animate({'right':'115px'},500);
             }
-            // else if (top_of_window > bottom_of_element-10){
-            //     $('.card1').animate({'left':'200px'}, 1000);
-            //     $('.card2').animate({'right':'200px'}, 1000);
-            // }
-            
-
-            // For some reason this causes an infinite animation loop of separating and joining when scrolling back up after passing the card
-
-            // if ($(window).scrollTop() > bottom_of_element){
-            //     $('.card1').animate({'left':'200px'}, 1000);
-            //     $('.card2').animate({'right':'200px'}, 1000);
-            // }
-            
+            else {
+                $('.card1').animate({'left':'200px'},500);
+                $('.card2').animate({'right':'200px'},500);
+            }
         }); 
     });
 });
