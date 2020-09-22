@@ -366,8 +366,7 @@ ul {
       #home-f .contact-cards .card2 .contact-form {
         padding-top: 0.25rem;
         align-self: center;
-        width: 90%;
-        overflow: hidden; }
+        width: 90%; }
         #home-f .contact-cards .card2 .contact-form .text-fields {
           display: flex;
           flex-direction: column; }
