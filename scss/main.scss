@@ -524,6 +524,10 @@ ul {
             a {
                 font-size: 1.25rem;
                 color: black;
+
+                &:hover {
+                    color: $primary-color;
+                }
             }
 
             .contact{

@@ -411,6 +411,8 @@ ul {
       #main-footer .footer-content .footer-links a {
         font-size: 1.25rem;
         color: black; }
+        #main-footer .footer-content .footer-links a:hover {
+          color: #bd9235; }
       #main-footer .footer-content .footer-links .contact {
         grid-area: contact; }
         #main-footer .footer-content .footer-links .contact .icons {
