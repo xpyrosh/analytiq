@@ -56,8 +56,8 @@
   overflow: hidden; }
 
 .card-m {
-  width: 500px;
-  height: 600px; }
+  width: 30rem;
+  height: 35rem; }
 
 * {
   margin: 0;
@@ -208,11 +208,19 @@ ul {
       left: 200px;
       transition: all ease; }
       #home-b .wwdcards .card1 #angled-line {
-        float: right; }
+        float: right;
+        margin-right: auto;
+        margin-left: auto;
+        height: auto;
+        width: 60%; }
       #home-b .wwdcards .card1 #graphic {
         position: absolute;
-        top: 75px;
-        left: 125px; }
+        top: 4.2rem;
+        left: 125px;
+        margin-right: auto;
+        margin-left: auto;
+        height: auto;
+        width: 50%; }
       #home-b .wwdcards .card1 .card-text {
         display: inline-block; }
       #home-b .wwdcards .card1 h1 {
@@ -224,7 +232,11 @@ ul {
       right: 200px;
       transition: all ease; }
       #home-b .wwdcards .card2 #angled-line {
-        float: left; }
+        float: left;
+        margin-right: auto;
+        margin-left: auto;
+        height: auto;
+        width: 60%; }
       #home-b .wwdcards .card2 #graphic {
         position: absolute;
         top: 75px;
@@ -232,7 +244,7 @@ ul {
         margin-right: auto;
         margin-left: auto;
         height: auto;
-        width: 92%; }
+        width: 96%; }
       #home-b .wwdcards .card2 .card-text {
         display: inline-block; }
       #home-b .wwdcards .card2 h1 {
@@ -312,7 +324,7 @@ ul {
   #home-e .recent-articles {
     display: flex; }
     #home-e .recent-articles .card1 {
-      background: url("https://source.unsplash.com/random") no-repeat center center/cover; }
+      background: url("../img/article-1.jpg") no-repeat center center/cover; }
     #home-e .recent-articles .card2 {
       background: url("https://source.unsplash.com/user/erondu") no-repeat center center/cover; }
     #home-e .recent-articles .card3 {

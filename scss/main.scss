@@ -226,11 +226,19 @@ ul {
 
             #angled-line {
                 float: right;
+                margin-right: auto;
+                margin-left: auto;
+                height: auto;
+                width: 60%;
             }
             #graphic {
                 position: absolute;
-                top: 75px;
+                top: 4.2rem;
                 left: 125px;
+                margin-right: auto;
+                margin-left: auto;
+                height: auto;
+                width: 50%;
             }
 
             .card-text{
@@ -251,6 +259,10 @@ ul {
 
             #angled-line {
                 float: left;
+                margin-right: auto;
+                margin-left: auto;
+                height: auto;
+                width: 60%;
             }
 
             #graphic {
@@ -260,7 +272,7 @@ ul {
                 margin-right: auto;
                 margin-left: auto;
                 height: auto;
-                width: 92%;
+                width: 96%;
             }
 
             .card-text {
@@ -380,7 +392,7 @@ ul {
     .recent-articles {
         display: flex;
         .card1 {
-            background: url('https://source.unsplash.com/random') no-repeat center center/cover;
+            background: url('../img/article-1.jpg') no-repeat center center/cover;
         }
         .card2 {
             background: url('https://source.unsplash.com/user/erondu') no-repeat center center/cover;
