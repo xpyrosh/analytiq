@@ -16,10 +16,10 @@ $(document).ready(function() {
             console.log(top_of_window);
             console.log(top_of_element);
             
-            if(bottom_of_window > (bottom_of_element - cardHalf)){
+             if(bottom_of_window > (bottom_of_element - cardHalf)){
                 $('.card1').animate({'left':'115px'},500);
                 $('.card2').animate({'right':'115px'},500);
-            }
+             } 
         }); 
     });
 });
