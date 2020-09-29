@@ -133,13 +133,12 @@ ul {
   #header-home #decor-1 {
     position: absolute;
     z-index: -2;
+    right: -480px;
     top: -120px;
-    left: 46.25%;
     -webkit-filter: drop-shadow(-3px 10px 5px #d9d9d9);
     filter: drop-shadow(-3px 10px 5px #d9d9d9);
     margin: 0 auto;
-    height: auto;
-    width: auto; }
+    height: auto; }
   #header-home #decor-2 {
     position: absolute;
     z-index: -1;
@@ -255,7 +254,7 @@ ul {
         font-size: 1.5rem;
         color: #703d50; }
   #home-b .wwd-button {
-    margin-top: 675px; }
+    margin-top: 50%; }
 
 #home-c {
   background: white url("../img/Toronto.png") no-repeat center center/cover;
@@ -401,6 +400,8 @@ ul {
         #home-f .contact-cards .card2 .contact-form button {
           font-size: 1rem;
           border: none; }
+    #home-f .contact-cards .card3 .mapboxgl-popup {
+      max-width: 200px; }
 
 *, *:focus, *:hover {
   outline: none; }

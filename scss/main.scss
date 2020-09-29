@@ -111,16 +111,14 @@ ul {
         #decor-1 {
             position: absolute;
             z-index: -2;
-            // right: -480px;
+            right: -480px;
             top: -120px;
-            left: 46.25%;
 
             -webkit-filter: drop-shadow(-3px 10px 5px #d9d9d9);
             filter: drop-shadow(-3px 10px 5px #d9d9d9);
 
             margin: 0 auto;
             height: auto;
-            width: auto;
         }
 
         #decor-2 {
@@ -227,7 +225,7 @@ ul {
             position: absolute;
             top: 0;
             left: 200px;
-            transition: all ease;
+            transition: all ease-in-out;
 
             #angled-line {
                 float: right;
@@ -293,7 +291,8 @@ ul {
     }
 
     .wwd-button {
-        margin-top: 675px;
+        // margin-top: 675px;
+        margin-top: 50%;
     }
 }
 
@@ -503,6 +502,12 @@ ul {
                     font-size: 1rem;
                     border: none;
                 }
+            }
+        }
+
+        .card3 {
+            .mapboxgl-popup {
+                max-width: 200px;
             }
         }
     }
