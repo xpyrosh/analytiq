@@ -208,7 +208,7 @@ ul {
       position: absolute;
       top: 0;
       left: 200px;
-      transition: all ease; }
+      transition: all ease-in-out; }
       #home-b .wwdcards .card1 #angled-line {
         float: right;
         margin-right: auto;
@@ -326,11 +326,11 @@ ul {
   #home-e .recent-articles {
     display: flex; }
     #home-e .recent-articles .card1 {
-      background: url("../img/article-1.jpg") no-repeat center center/cover; }
+      background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../img/article-1.jpg) no-repeat center center/cover; }
     #home-e .recent-articles .card2 {
-      background: url("https://source.unsplash.com/user/erondu") no-repeat center center/cover; }
+      background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("https://source.unsplash.com/user/erondu") no-repeat center center/cover; }
     #home-e .recent-articles .card3 {
-      background: url("https://source.unsplash.com/collection/190727") no-repeat center center/cover; }
+      background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("https://source.unsplash.com/collection/190727") no-repeat center center/cover; }
 
 #home-f {
   margin: 8rem 0; }

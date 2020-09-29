@@ -25,19 +25,20 @@ $(document).ready(function() {
             // console.log(bottom_of_element);
             // console.log(bottom_of_window);
 
-            
+            // $(.card1).stop().animate() could be used if the animate queue grows too much
+
              if((bottom_of_window > cardHalf) && (top_of_window < cardHalf) && animated == false){
                 $('.card1').animate({'left':'130px'},500);
                 $('.card2').animate({'right':'130px'},500);
                 animated = true;
-                console.log('animated');
-                console.log(animated);
+                // console.log('animated');
+                // console.log(animated);
              }
              else if (((bottom_of_window < topBound) || (top_of_window > bottomBound)) && animated == true){
                 $('.card1').animate({'left':'200px'},500);
                 $('.card2').animate({'right':'200px'},500);
                 animated = false;
-                console.log('collapsing');
+                // console.log('collapsing');
              }
         }); 
     });
