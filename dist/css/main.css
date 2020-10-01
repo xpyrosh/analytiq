@@ -468,3 +468,20 @@ ul {
     background: #bd9235;
     padding: 1rem 0;
     font-style: italic; }
+
+#toTop {
+  z-index: 999;
+  display: none;
+  opacity: 0;
+  cursor: pointer;
+  position: fixed;
+  bottom: 3rem;
+  right: 3rem;
+  background: #969696;
+  border-radius: 30px;
+  padding: .45rem .65rem;
+  color: white;
+  text-decoration: none;
+  transition: all 1s; }
+  #toTop:hover {
+    background: #713d50; }

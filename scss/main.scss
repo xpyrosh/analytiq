@@ -621,3 +621,23 @@ ul {
         font-style: italic;
     }
 }
+
+#toTop {
+    z-index: 999;
+    display: none;
+    opacity: 0;
+    cursor: pointer;
+    position: fixed;
+    bottom: 3rem;
+    right: 3rem;
+    background: $navbar-text;
+    border-radius: 30px;
+    padding: .45rem .65rem;
+    color: white;
+    text-decoration: none;
+    transition: all 1s;
+
+    &:hover {
+        background: $tertiary-color;
+    }
+}
