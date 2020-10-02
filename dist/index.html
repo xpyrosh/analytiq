@@ -24,23 +24,29 @@
 
     <!-- Header -->
     <header id="header-home">
-        <div class="container">
+        
+        <!-- Nav Bar -->
+        <div id="nav-out">
+            <div class="container">
+                <nav id="main-nav">
+                    <img src="img/logo.png" alt="AnalytIQ" id="logo" />
+                    <ul>
+                        <li><a href="#" class="current">Home</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
 
+        <div class="container">
             <!-- Background Marble Effect 1 -->
             <img src="img/Decor.png" alt="decor1" id="decor-1"/>
             <img src="img/DecorOffset.png" alt="decor1" id="decor-2"/>
             
-            <!-- Nav Bar -->
-            <nav id="main-nav">
-                <img src="img/logo.png" alt="AnalytIQ" id="logo" />
-                <ul>
-                    <li><a href="#" class="current">Home</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
+            
             <div id="header-content">
                 <!-- Home Main Header -->
                 <img src="img/header-h1.png" alt="Header-Title" class="header-title" />
@@ -228,7 +234,7 @@
 
                         // create the popup
                         var popup = new mapboxgl.Popup({ offset: 25 })
-                        .setText('20 Tranmere Dr. Unit 20.');
+                        .setText('7015 Tranmere Dr, Unit 20.');
 
 
                         
@@ -316,6 +322,9 @@
 
     <!-- Go Up Button -->
     <script src="js/return-button.js"></script>
+
+    <!-- Nav follow on scroll -->
+    <script src="js/nav-scroll.js"></script>
 
 </body>
 </html>

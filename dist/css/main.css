@@ -101,10 +101,19 @@ a {
 ul {
   list-style: none; }
 
+#nav-out {
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  width: 100%;
+  background: none; }
+
 #main-nav {
   padding-top: 3rem;
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  width: 1280px;
+  transition: all 0.4s; }
   #main-nav #logo {
     width: auto;
     height: auto;
@@ -146,7 +155,7 @@ ul {
     top: -120px; }
   #header-home #header-content {
     position: absolute;
-    padding-top: 23vh;
+    padding-top: 33vh;
     align-items: center;
     text-align: center; }
     #header-home #header-content .header-title {
