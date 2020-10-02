@@ -16,7 +16,7 @@ function scrollFunction() {
     document.getElementById("main-nav").style.padding = "1rem 0rem";
     document.getElementById("nav-out").style.background = "#f6f6f6";
     // grey #d9d9d9
-    document.getElementById("nav-out").style.boxShadow = "0px 5px 7px #d9d9d9";
+    document.getElementById("nav-out").style.boxShadow = "0px 3px 5px #d9d9d9";
     document.getElementById("nav-out").style.borderBottom = "10px solid #f9f9f9"
 
   } else {
